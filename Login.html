@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <script src="https://kit.fontawesome.com/8e93f24a0b.js" crossorigin="anonymous"></script>
+
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        nav a{
+           text-decoration: none;
+           color: black;
+           margin-left: 10px;
+        }
+        .login-container{
+           display: flex;
+           justify-content: center;
+           margin-top: 50px; 
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+        .login-form input{
+            margin-top: 10px;
+            font-size: 1.5em;
+            padding: 5px 10px;
+        }
+        .login-form input[type="submit"]{
+            background-color:goldenrod;
+            border: 0;
+            border-radius: 5px;
+            color: antiquewhite;
+            font-weight: 700;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- create login form and flexible nav using flexbox -->
+
+     <!-- form.login-form -->
+
+     <header>
+        <nav>
+            <span>
+                <a href=""> Home</a>
+            <a href="">Deshboard</a>
+            <a href="">Menubar</a>
+            <a href="">about us</a>
+            </span>
+
+            <span>
+                <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+            <a href="">  <i class="fa-solid fa-user"></i></a>
+            </span>
+          
+        </nav>
+     </header>
+    <section class="login-container">
+
+        <form  class="login-form">
+
+            <h3>please login</h3>
+            <input type="email" name="" id="" placeholder=" Enter your Email" required>
+            <input type="password" name="" id="" placeholder="Enter your password" required>
+            <input type="submit" value="login">
+          </form>
+    </section>
+</body>
+</html>
