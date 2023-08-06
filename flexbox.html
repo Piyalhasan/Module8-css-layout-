@@ -4,14 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exploring the flexbox</title>
+    <style>
+
+        .container{
+            border: 2px solid goldenrod;
+            display: flex;
+            height: 400px; 
+            align-items: stretch;
+            /* justify-content: flex-end; */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+            /* align-items:flex-end ; */
+            /* align-items: center;
+            justify-content: center; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            /* flex-wrap: wrap; */
+
+
+          
+        }
+        .box{
+            font-size: 3ex;
+            font-weight: 700;
+            /* height: 100px; */
+            width: 100px;
+            border: 2px solid gray;
+        }
+        #box-2{
+            flex-grow: 1;
+        }
+
+    </style>
 </head>
 <body>
     <!-- web site layout.google -->
     <!-- .container>.box{box-$}*3 -->
     <div class="container">
         <div class="box">box-1</div>
+        <div  id="box-2" class="box">box-2</div>
+
+
+        <!-- <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
         <div class="box">box-2</div>
         <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div> -->
     </div>
 </body>
 </html>
+
+<!-- flexbox,flex direction,justify content align items -->
+<!-- justify-content use for horizental line = x axis -->
+<!-- align-items use for varticle line= y axis -->
